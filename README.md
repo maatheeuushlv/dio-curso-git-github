@@ -83,6 +83,23 @@ Introduzir ao versionamento de código com Git e GitHub.
   </tr>
 </table>
 
+## 🏢 Projeto: Análise de Oportunidades Imobiliárias
+
+Este repositório também inclui um sistema de análise de oportunidades imobiliárias para Londrina/PR - Zona Sul.
+
+📄 [**Ver documentação completa do projeto**](README_ANALISE_IMOVEIS.md)
+
+**Funcionalidades:**
+- ✅ Identificação de oportunidades de compra abaixo do valor de mercado
+- ✅ Cálculo de rentabilidade anual (yield) de investimentos
+- ✅ Relatórios consolidados por bairro
+- ✅ Rankings de melhores oportunidades
+
+**Como usar:**
+```bash
+python3 analise_imoveis_londrina.py
+```
+
 ## Referências
 - [GIT. Documentation](https://git-scm.com/doc)
 - [GITHUB. Documentation](https://docs.github.com/)

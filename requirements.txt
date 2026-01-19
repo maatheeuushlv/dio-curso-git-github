@@ -1,0 +1,12 @@
+# Análise de Oportunidades Imobiliárias - Londrina/PR (Zona Sul)
+# Não requer dependências externas - usa apenas bibliotecas padrão do Python 3
+
+# Este projeto não requer instalação de pacotes externos.
+# Python 3.7+ é suficiente para executar o sistema.
+
+# Se você deseja adicionar funcionalidades extras, considere:
+# requests==2.31.0  # Para coleta de dados real das plataformas
+# beautifulsoup4==4.12.2  # Para parsing de HTML
+# pandas==2.0.3  # Para análise de dados avançada
+# matplotlib==3.7.2  # Para visualização de gráficos
+# plotly==5.15.0  # Para gráficos interativos
