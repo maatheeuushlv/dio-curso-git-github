@@ -39,3 +39,6 @@ env/
 # OS
 .DS_Store
 Thumbs.db
+
+# Except example files
+!exemplo_relatorio.txt
