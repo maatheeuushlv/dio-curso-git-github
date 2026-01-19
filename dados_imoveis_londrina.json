@@ -1,0 +1,164 @@
+[
+  {
+    "plataforma": "ZAP Imóveis",
+    "bairro": "Gleba Palhano",
+    "nome_empreendimento": "Residencial Verona",
+    "metragem": 72.0,
+    "preco_venda": 460000.0,
+    "aluguel_mensal": 2800.0,
+    "endereco": "Rua das Orquídeas, 123"
+  },
+  {
+    "plataforma": "OLX",
+    "bairro": "Gleba Palhano",
+    "nome_empreendimento": "Edifício Toscana",
+    "metragem": 85.0,
+    "preco_venda": 650000.0,
+    "aluguel_mensal": 3500.0,
+    "endereco": "Av. Ayrton Senna, 456"
+  },
+  {
+    "plataforma": "ZAP Imóveis",
+    "bairro": "Gleba Palhano",
+    "nome_empreendimento": "Residencial Jardim Europeu",
+    "metragem": 78.0,
+    "preco_venda": 520000.0,
+    "aluguel_mensal": 3100.0,
+    "endereco": "Rua das Camélias, 789"
+  },
+  {
+    "plataforma": "OLX",
+    "bairro": "Gleba Palhano",
+    "nome_empreendimento": "Residencial São Paulo",
+    "metragem": 80.0,
+    "preco_venda": 550000.0,
+    "aluguel_mensal": 3300.0,
+    "endereco": "Av. Madre Leônia Milito, 555"
+  },
+  {
+    "plataforma": "ZAP Imóveis",
+    "bairro": "Gleba Palhano",
+    "nome_empreendimento": "Residencial Villa Verde - OPORTUNIDADE",
+    "metragem": 75.0,
+    "preco_venda": 420000.0,
+    "aluguel_mensal": 2700.0,
+    "endereco": "Rua das Tulipas, 999"
+  },
+  {
+    "plataforma": "OLX",
+    "bairro": "Alto da Boa Vista",
+    "nome_empreendimento": "Residencial Aurora",
+    "metragem": 92.0,
+    "preco_venda": 520000.0,
+    "aluguel_mensal": 3200.0,
+    "endereco": "Rua Mato Grosso, 321"
+  },
+  {
+    "plataforma": "ZAP Imóveis",
+    "bairro": "Alto da Boa Vista",
+    "nome_empreendimento": "Edifício Bela Vista",
+    "metragem": 75.0,
+    "preco_venda": 380000.0,
+    "aluguel_mensal": 2400.0,
+    "endereco": "Rua Pernambuco, 654"
+  },
+  {
+    "plataforma": "OLX",
+    "bairro": "Alto da Boa Vista",
+    "nome_empreendimento": "Condomínio Horizonte",
+    "metragem": 88.0,
+    "preco_venda": 495000.0,
+    "aluguel_mensal": 3000.0,
+    "endereco": "Av. Brasília, 987"
+  },
+  {
+    "plataforma": "ZAP Imóveis",
+    "bairro": "Alto da Boa Vista",
+    "nome_empreendimento": "Residencial das Palmeiras",
+    "metragem": 70.0,
+    "preco_venda": 350000.0,
+    "aluguel_mensal": 2300.0,
+    "endereco": "Rua Sergipe, 234"
+  },
+  {
+    "plataforma": "OLX",
+    "bairro": "Alto da Boa Vista",
+    "nome_empreendimento": "Apartamento Vista Alegre - OPORTUNIDADE",
+    "metragem": 78.0,
+    "preco_venda": 340000.0,
+    "aluguel_mensal": 2250.0,
+    "endereco": "Rua Goiás, 876"
+  },
+  {
+    "plataforma": "ZAP Imóveis",
+    "bairro": "Jardim Shangri-lá",
+    "nome_empreendimento": "Residencial Paraíso",
+    "metragem": 65.0,
+    "preco_venda": 340000.0,
+    "aluguel_mensal": 2200.0,
+    "endereco": "Rua dos Jacarandás, 147"
+  },
+  {
+    "plataforma": "OLX",
+    "bairro": "Jardim Shangri-lá",
+    "nome_empreendimento": "Edifício Primavera",
+    "metragem": 70.0,
+    "preco_venda": 385000.0,
+    "aluguel_mensal": 2500.0,
+    "endereco": "Rua das Acácias, 258"
+  },
+  {
+    "plataforma": "ZAP Imóveis",
+    "bairro": "Jardim Shangri-lá",
+    "nome_empreendimento": "Condomínio Vista Verde",
+    "metragem": 80.0,
+    "preco_venda": 420000.0,
+    "aluguel_mensal": 2700.0,
+    "endereco": "Av. dos Ipês, 369"
+  },
+  {
+    "plataforma": "OLX",
+    "bairro": "Jardim Shangri-lá",
+    "nome_empreendimento": "Residencial das Flores",
+    "metragem": 68.0,
+    "preco_venda": 320000.0,
+    "aluguel_mensal": 2100.0,
+    "endereco": "Rua das Violetas, 741"
+  },
+  {
+    "plataforma": "ZAP Imóveis",
+    "bairro": "Jardim Shangri-lá",
+    "nome_empreendimento": "Apartamento Solar das Orquídeas - OPORTUNIDADE",
+    "metragem": 72.0,
+    "preco_venda": 310000.0,
+    "aluguel_mensal": 2050.0,
+    "endereco": "Rua das Magnólias, 555"
+  },
+  {
+    "plataforma": "OLX",
+    "bairro": "Lago Parque",
+    "nome_empreendimento": "Residencial Laguna",
+    "metragem": 95.0,
+    "preco_venda": 580000.0,
+    "aluguel_mensal": 3600.0,
+    "endereco": "Rua do Lago, 741"
+  },
+  {
+    "plataforma": "ZAP Imóveis",
+    "bairro": "Lago Parque",
+    "nome_empreendimento": "Edifício Água Viva",
+    "metragem": 82.0,
+    "preco_venda": 450000.0,
+    "aluguel_mensal": 2900.0,
+    "endereco": "Av. das Águas, 852"
+  },
+  {
+    "plataforma": "OLX",
+    "bairro": "Lago Parque",
+    "nome_empreendimento": "Condomínio Beira Lago",
+    "metragem": 100.0,
+    "preco_venda": 620000.0,
+    "aluguel_mensal": 3800.0,
+    "endereco": "Rua da Margem, 963"
+  }
+]
