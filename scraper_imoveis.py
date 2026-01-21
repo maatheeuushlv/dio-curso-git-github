@@ -19,12 +19,14 @@ import re
 from typing import List, Dict, Optional
 from urllib.parse import urljoin, urlparse, parse_qs
 import random
+import configparser
+import os
 
 
 class ScraperImoveis:
     """Classe para extração de dados de imóveis de OLX e ZAP Imóveis."""
     
-    def __init__(self):
+    def __init__(self, config_file: str = 'config_scraper.ini'):
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
@@ -35,8 +37,26 @@ class ScraperImoveis:
         }
         self.session = requests.Session()
         self.session.headers.update(self.headers)
-        self.delay_min = 1
-        self.delay_max = 3
+        
+        # Carregar configurações
+        self.config = self._carregar_config(config_file)
+        self.delay_min = self.config.getint('scraping', 'delay_min', fallback=1)
+        self.delay_max = self.config.getint('scraping', 'delay_max', fallback=3)
+        self.max_paginas = self.config.getint('scraping', 'max_paginas', fallback=5)
+        self.timeout = self.config.getint('scraping', 'timeout', fallback=30)
+    
+    def _carregar_config(self, config_file: str) -> configparser.ConfigParser:
+        """Carrega configurações do arquivo INI."""
+        config = configparser.ConfigParser()
+        
+        if os.path.exists(config_file):
+            config.read(config_file, encoding='utf-8')
+        else:
+            # Configurações padrão se arquivo não existir
+            print(f"⚠️  Arquivo de configuração não encontrado: {config_file}")
+            print("   Usando configurações padrão...")
+        
+        return config
     
     def processar_preco(self, texto_preco: str) -> Optional[float]:
         """
@@ -52,9 +72,17 @@ class ScraperImoveis:
             texto_limpo = texto_limpo.replace('/mês', '').replace('/mes', '')
             texto_limpo = texto_limpo.replace(' ', '').replace('\n', '')
             
-            # Remove pontos de milhar e substitui vírgula por ponto
-            texto_limpo = texto_limpo.replace('.', '')
-            texto_limpo = texto_limpo.replace(',', '.')
+            # Identifica se usa vírgula como decimal ou ponto
+            # Se há vírgula seguida de 2 dígitos no final, é decimal
+            # Exemplo: 1.500,50 ou 1500,50
+            if re.search(r',\d{2}$', texto_limpo):
+                # Formato brasileiro: ponto como milhar, vírgula como decimal
+                texto_limpo = texto_limpo.replace('.', '')  # Remove separador de milhar
+                texto_limpo = texto_limpo.replace(',', '.')  # Vírgula vira ponto decimal
+            else:
+                # Apenas pontos de milhar, sem decimais
+                texto_limpo = texto_limpo.replace('.', '')
+                texto_limpo = texto_limpo.replace(',', '')
             
             # Extrai apenas números e ponto decimal
             match = re.search(r'(\d+\.?\d*)', texto_limpo)
@@ -376,13 +404,22 @@ class ScraperImoveis:
         
         todos_anuncios = []
         
-        # URLs de busca - Ajustar conforme necessário
-        urls = {
-            'olx_venda': 'https://www.olx.com.br/imoveis/venda/apartamentos/estado-pr/regiao-de-londrina/londrina?pe=700000',
-            'olx_aluguel': 'https://www.olx.com.br/imoveis/aluguel/apartamentos/estado-pr/regiao-de-londrina/londrina',
-            'zap_venda': 'https://www.zapimoveis.com.br/venda/apartamentos/pr+londrina/?onde=,Paraná,Londrina,,,,,city,BR>Paraná>NULL>Londrina&precoate=700000',
-            'zap_aluguel': 'https://www.zapimoveis.com.br/aluguel/apartamentos/pr+londrina/?onde=,Paraná,Londrina,,,,,city,BR>Paraná>NULL>Londrina'
-        }
+        # Carregar URLs da configuração ou usar padrões
+        if self.config.has_section('urls'):
+            urls = {
+                'olx_venda': self.config.get('urls', 'olx_venda', fallback=''),
+                'olx_aluguel': self.config.get('urls', 'olx_aluguel', fallback=''),
+                'zap_venda': self.config.get('urls', 'zap_venda', fallback=''),
+                'zap_aluguel': self.config.get('urls', 'zap_aluguel', fallback='')
+            }
+        else:
+            # URLs padrão se configuração não existir
+            urls = {
+                'olx_venda': 'https://www.olx.com.br/imoveis/venda/apartamentos/estado-pr/regiao-de-londrina/londrina?pe=700000',
+                'olx_aluguel': 'https://www.olx.com.br/imoveis/aluguel/apartamentos/estado-pr/regiao-de-londrina/londrina',
+                'zap_venda': 'https://www.zapimoveis.com.br/venda/apartamentos/pr+londrina/?onde=,Paraná,Londrina,,,,,city,BR>Paraná>NULL>Londrina&precoate=700000',
+                'zap_aluguel': 'https://www.zapimoveis.com.br/aluguel/apartamentos/pr+londrina/?onde=,Paraná,Londrina,,,,,city,BR>Paraná>NULL>Londrina'
+            }
         
         # Extrair OLX - Venda
         try:

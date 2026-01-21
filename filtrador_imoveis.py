@@ -21,29 +21,25 @@ class FiltradorImoveis:
         self.palavras_cessao = [
             'cessão de direitos',
             'cessao de direitos',
-            'cessão',
-            'cessao',
-            'direitos',
-            'cession',
             'transferência de direitos',
             'transferencia de direitos'
         ]
         
         self.palavras_exclusao_tipo = [
-            'casa ',
-            'casas ',
-            'terreno',
-            'lote',
-            'sala comercial',
-            'sala comerci',
-            'galpão',
-            'galpao',
-            'chácara',
-            'chacara',
-            'sítio',
-            'sitio',
-            'ponto comercial',
-            'sobrado'
+            r'\bcasa\b',
+            r'\bcasas\b',
+            r'\bterreno\b',
+            r'\blote\b',
+            r'\bsala comercial\b',
+            r'\bsala comerci',
+            r'\bgalpão\b',
+            r'\bgalpao\b',
+            r'\bchácara\b',
+            r'\bchacara\b',
+            r'\bsítio\b',
+            r'\bsitio\b',
+            r'\bponto comercial\b',
+            r'\bsobrado\b'
         ]
         
         self.valor_maximo = 700000.0
@@ -80,8 +76,9 @@ class FiltradorImoveis:
         """
         texto_completo = f"{titulo} {descricao}".lower()
         
-        for palavra in self.palavras_exclusao_tipo:
-            if palavra in texto_completo:
+        # Usar regex para buscar palavra completa (word boundary)
+        for padrao in self.palavras_exclusao_tipo:
+            if re.search(padrao, texto_completo, re.IGNORECASE):
                 return False
         
         return True
