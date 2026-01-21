@@ -1,0 +1,24 @@
+# Análise de Oportunidades Imobiliárias - Londrina/PR (Zona Sul)
+# Sistema com Web Scraping REAL de OLX e ZAP Imóveis
+
+# === DEPENDÊNCIAS OBRIGATÓRIAS ===
+# Para web scraping e extração de dados reais
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# === DEPENDÊNCIAS OPCIONAIS ===
+# Para sites com JavaScript dinâmico (se necessário)
+# selenium>=4.15.0
+# webdriver-manager>=4.0.0
+
+# Para análise de dados avançada (opcional)
+# pandas>=2.0.3
+# numpy>=1.24.0
+
+# Para visualização de gráficos (opcional)
+# matplotlib>=3.7.2
+# plotly>=5.15.0
+
+# === INSTALAÇÃO ===
+# pip install -r requirements.txt

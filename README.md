@@ -83,6 +83,57 @@ Introduzir ao versionamento de código com Git e GitHub.
   </tr>
 </table>
 
+## 🏢 Projeto: Análise de Oportunidades Imobiliárias
+
+Este repositório inclui dois sistemas de análise de oportunidades imobiliárias para Londrina/PR - Zona Sul:
+
+### 🚀 Sistema com Web Scraping REAL (Novo!)
+
+**Sistema automatizado completo** com extração real de dados via web scraping.
+
+📄 [**Ver documentação completa do sistema de scraping**](README_SCRAPING.md)
+
+**Características:**
+- ✅ **Web scraping REAL** de OLX e ZAP Imóveis (NÃO usa dados simulados)
+- ✅ Filtragem automática de cessão de direitos
+- ✅ Validação de preços (≤ R$ 700.000) e tipos (apenas apartamentos)
+- ✅ Identificação de oportunidades abaixo do valor de mercado
+- ✅ Cálculo de rentabilidade anual (yield) de investimentos
+- ✅ Relatórios consolidados em JSON e Markdown
+
+**Como usar:**
+```bash
+# Instalar dependências
+pip install -r requirements.txt
+
+# Executar sistema completo
+python3 main_scraping.py
+```
+
+**Arquivos principais:**
+- `main_scraping.py` - Orquestrador principal
+- `scraper_imoveis.py` - Web scraper de OLX e ZAP Imóveis
+- `filtrador_imoveis.py` - Filtros e validação de dados
+
+---
+
+### 📊 Sistema com Dados de Exemplo (Original)
+
+Sistema demonstrativo com dados simulados para fins educacionais.
+
+📄 [**Ver documentação do sistema original**](README_ANALISE_IMOVEIS.md)
+
+**Características:**
+- ✅ Identificação de oportunidades de compra abaixo do valor de mercado
+- ✅ Cálculo de rentabilidade anual (yield) de investimentos
+- ✅ Relatórios consolidados por bairro
+- ✅ Rankings de melhores oportunidades
+
+**Como usar:**
+```bash
+python3 analise_imoveis_londrina.py
+```
+
 ## Referências
 - [GIT. Documentation](https://git-scm.com/doc)
 - [GITHUB. Documentation](https://docs.github.com/)

@@ -1,0 +1,48 @@
+# Real Estate Analysis - Generated Files
+dados_imoveis_londrina.json
+oportunidades.json
+dados_imoveis_bruto.json
+cessao_direitos.json
+relatorio_final.json
+relatorio_final.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Except example files
+!exemplo_relatorio.txt

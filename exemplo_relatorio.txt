@@ -1,0 +1,341 @@
+
+================================================================================
+SISTEMA DE ANÁLISE DE OPORTUNIDADES IMOBILIÁRIAS
+Londrina/PR - Zona Sul
+================================================================================
+
+📥 Carregando dados dos imóveis...
+✓ 18 imóveis carregados de dados_imoveis_londrina.json
+
+📊 Gerando relatório de análise...
+
+================================================================================
+RELATÓRIO CONSOLIDADO - ANÁLISE DE OPORTUNIDADES IMOBILIÁRIAS
+LONDRINA/PR - ZONA SUL
+================================================================================
+
+📍 Bairros analisados: Alto da Boa Vista, Gleba Palhano, Jardim Shangri-lá, Lago Parque
+📊 Total de imóveis: 18
+
+================================================================================
+
+================================================================================
+ANÁLISE DO BAIRRO: ALTO DA BOA VISTA
+================================================================================
+
+📊 Estatísticas Gerais:
+   • Total de imóveis analisados: 5
+   • Preço médio por m²: R$ 5,140.56
+
+💰 Oportunidades de Compra (≥10.0% abaixo do mercado):
+   Total: 1 imóvel(is)
+
+   1. Apartamento Vista Alegre - OPORTUNIDADE
+      • Plataforma: OLX
+      • Metragem: 78.0 m²
+      • Preço de venda: R$ 340,000.00
+      • Preço por m²: R$ 4,358.97
+      • Preço médio do bairro: R$ 5,140.56/m²
+      • 🎯 ABAIXO DO MERCADO: 15.20%
+
+
+📈 Análise de Rentabilidade (Yield Anual Bruto):
+   Total: 5 imóvel(is) com dados de aluguel
+
+   1. Apartamento Vista Alegre - OPORTUNIDADE
+      • Plataforma: OLX
+      • Metragem: 78.0 m²
+      • Preço de venda: R$ 340,000.00
+      • Aluguel mensal: R$ 2,250.00
+      • Yield Bruto: 7.94% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   2. Residencial das Palmeiras
+      • Plataforma: ZAP Imóveis
+      • Metragem: 70.0 m²
+      • Preço de venda: R$ 350,000.00
+      • Aluguel mensal: R$ 2,300.00
+      • Yield Bruto: 7.89% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   3. Edifício Bela Vista
+      • Plataforma: ZAP Imóveis
+      • Metragem: 75.0 m²
+      • Preço de venda: R$ 380,000.00
+      • Aluguel mensal: R$ 2,400.00
+      • Yield Bruto: 7.58% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   4. Residencial Aurora
+      • Plataforma: OLX
+      • Metragem: 92.0 m²
+      • Preço de venda: R$ 520,000.00
+      • Aluguel mensal: R$ 3,200.00
+      • Yield Bruto: 7.38% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   5. Condomínio Horizonte
+      • Plataforma: OLX
+      • Metragem: 88.0 m²
+      • Preço de venda: R$ 495,000.00
+      • Aluguel mensal: R$ 3,000.00
+      • Yield Bruto: 7.27% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+
+================================================================================
+ANÁLISE DO BAIRRO: GLEBA PALHANO
+================================================================================
+
+📊 Estatísticas Gerais:
+   • Total de imóveis analisados: 5
+   • Preço médio por m²: R$ 6,635.52
+
+💰 Oportunidades de Compra (≥10.0% abaixo do mercado):
+   Total: 1 imóvel(is)
+
+   1. Residencial Villa Verde - OPORTUNIDADE
+      • Plataforma: ZAP Imóveis
+      • Metragem: 75.0 m²
+      • Preço de venda: R$ 420,000.00
+      • Preço por m²: R$ 5,600.00
+      • Preço médio do bairro: R$ 6,635.52/m²
+      • 🎯 ABAIXO DO MERCADO: 15.61%
+
+
+📈 Análise de Rentabilidade (Yield Anual Bruto):
+   Total: 5 imóvel(is) com dados de aluguel
+
+   1. Residencial Villa Verde - OPORTUNIDADE
+      • Plataforma: ZAP Imóveis
+      • Metragem: 75.0 m²
+      • Preço de venda: R$ 420,000.00
+      • Aluguel mensal: R$ 2,700.00
+      • Yield Bruto: 7.71% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   2. Residencial Verona
+      • Plataforma: ZAP Imóveis
+      • Metragem: 72.0 m²
+      • Preço de venda: R$ 460,000.00
+      • Aluguel mensal: R$ 2,800.00
+      • Yield Bruto: 7.30% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   3. Residencial São Paulo
+      • Plataforma: OLX
+      • Metragem: 80.0 m²
+      • Preço de venda: R$ 550,000.00
+      • Aluguel mensal: R$ 3,300.00
+      • Yield Bruto: 7.20% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   4. Residencial Jardim Europeu
+      • Plataforma: ZAP Imóveis
+      • Metragem: 78.0 m²
+      • Preço de venda: R$ 520,000.00
+      • Aluguel mensal: R$ 3,100.00
+      • Yield Bruto: 7.15% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   5. Edifício Toscana
+      • Plataforma: OLX
+      • Metragem: 85.0 m²
+      • Preço de venda: R$ 650,000.00
+      • Aluguel mensal: R$ 3,500.00
+      • Yield Bruto: 6.46% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+
+================================================================================
+ANÁLISE DO BAIRRO: JARDIM SHANGRI-LÁ
+================================================================================
+
+📊 Estatísticas Gerais:
+   • Total de imóveis analisados: 5
+   • Preço médio por m²: R$ 4,998.44
+
+💰 Oportunidades de Compra (≥10.0% abaixo do mercado):
+   Total: 1 imóvel(is)
+
+   1. Apartamento Solar das Orquídeas - OPORTUNIDADE
+      • Plataforma: ZAP Imóveis
+      • Metragem: 72.0 m²
+      • Preço de venda: R$ 310,000.00
+      • Preço por m²: R$ 4,305.56
+      • Preço médio do bairro: R$ 4,998.44/m²
+      • 🎯 ABAIXO DO MERCADO: 13.86%
+
+
+📈 Análise de Rentabilidade (Yield Anual Bruto):
+   Total: 5 imóvel(is) com dados de aluguel
+
+   1. Apartamento Solar das Orquídeas - OPORTUNIDADE
+      • Plataforma: ZAP Imóveis
+      • Metragem: 72.0 m²
+      • Preço de venda: R$ 310,000.00
+      • Aluguel mensal: R$ 2,050.00
+      • Yield Bruto: 7.94% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   2. Residencial das Flores
+      • Plataforma: OLX
+      • Metragem: 68.0 m²
+      • Preço de venda: R$ 320,000.00
+      • Aluguel mensal: R$ 2,100.00
+      • Yield Bruto: 7.88% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   3. Edifício Primavera
+      • Plataforma: OLX
+      • Metragem: 70.0 m²
+      • Preço de venda: R$ 385,000.00
+      • Aluguel mensal: R$ 2,500.00
+      • Yield Bruto: 7.79% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   4. Residencial Paraíso
+      • Plataforma: ZAP Imóveis
+      • Metragem: 65.0 m²
+      • Preço de venda: R$ 340,000.00
+      • Aluguel mensal: R$ 2,200.00
+      • Yield Bruto: 7.76% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   5. Condomínio Vista Verde
+      • Plataforma: ZAP Imóveis
+      • Metragem: 80.0 m²
+      • Preço de venda: R$ 420,000.00
+      • Aluguel mensal: R$ 2,700.00
+      • Yield Bruto: 7.71% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+
+================================================================================
+ANÁLISE DO BAIRRO: LAGO PARQUE
+================================================================================
+
+📊 Estatísticas Gerais:
+   • Total de imóveis analisados: 3
+   • Preço médio por m²: R$ 5,931.02
+
+❌ Nenhuma oportunidade encontrada neste bairro.
+
+
+📈 Análise de Rentabilidade (Yield Anual Bruto):
+   Total: 3 imóvel(is) com dados de aluguel
+
+   1. Edifício Água Viva
+      • Plataforma: ZAP Imóveis
+      • Metragem: 82.0 m²
+      • Preço de venda: R$ 450,000.00
+      • Aluguel mensal: R$ 2,900.00
+      • Yield Bruto: 7.73% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   2. Residencial Laguna
+      • Plataforma: OLX
+      • Metragem: 95.0 m²
+      • Preço de venda: R$ 580,000.00
+      • Aluguel mensal: R$ 3,600.00
+      • Yield Bruto: 7.45% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+   3. Condomínio Beira Lago
+      • Plataforma: OLX
+      • Metragem: 100.0 m²
+      • Preço de venda: R$ 620,000.00
+      • Aluguel mensal: R$ 3,800.00
+      • Yield Bruto: 7.35% ao ano
+      • 🏆 Classificação: ALTA RENTABILIDADE (6-8%)
+
+
+================================================================================
+🏆 RANKING GERAL - MELHORES OPORTUNIDADES DE COMPRA
+================================================================================
+
+Top 3 oportunidades:
+
+1. Residencial Villa Verde - OPORTUNIDADE - Gleba Palhano
+   • Plataforma: ZAP Imóveis
+   • Metragem: 75.0 m²
+   • Preço: R$ 420,000.00 (R$ 5,600.00/m²)
+   • 🎯 Abaixo do mercado: 15.61%
+
+2. Apartamento Vista Alegre - OPORTUNIDADE - Alto da Boa Vista
+   • Plataforma: OLX
+   • Metragem: 78.0 m²
+   • Preço: R$ 340,000.00 (R$ 4,358.97/m²)
+   • 🎯 Abaixo do mercado: 15.20%
+
+3. Apartamento Solar das Orquídeas - OPORTUNIDADE - Jardim Shangri-lá
+   • Plataforma: ZAP Imóveis
+   • Metragem: 72.0 m²
+   • Preço: R$ 310,000.00 (R$ 4,305.56/m²)
+   • 🎯 Abaixo do mercado: 13.86%
+
+
+================================================================================
+📈 RANKING GERAL - MAIOR RENTABILIDADE (YIELD)
+================================================================================
+
+Top 10 rentabilidades:
+
+1. Apartamento Vista Alegre - OPORTUNIDADE - Alto da Boa Vista
+   • Plataforma: OLX
+   • Preço: R$ 340,000.00 | Aluguel: R$ 2,250.00
+   • 🏆 Yield: 7.94% ao ano - ALTA RENTABILIDADE (6-8%)
+
+2. Apartamento Solar das Orquídeas - OPORTUNIDADE - Jardim Shangri-lá
+   • Plataforma: ZAP Imóveis
+   • Preço: R$ 310,000.00 | Aluguel: R$ 2,050.00
+   • 🏆 Yield: 7.94% ao ano - ALTA RENTABILIDADE (6-8%)
+
+3. Residencial das Palmeiras - Alto da Boa Vista
+   • Plataforma: ZAP Imóveis
+   • Preço: R$ 350,000.00 | Aluguel: R$ 2,300.00
+   • 🏆 Yield: 7.89% ao ano - ALTA RENTABILIDADE (6-8%)
+
+4. Residencial das Flores - Jardim Shangri-lá
+   • Plataforma: OLX
+   • Preço: R$ 320,000.00 | Aluguel: R$ 2,100.00
+   • 🏆 Yield: 7.88% ao ano - ALTA RENTABILIDADE (6-8%)
+
+5. Edifício Primavera - Jardim Shangri-lá
+   • Plataforma: OLX
+   • Preço: R$ 385,000.00 | Aluguel: R$ 2,500.00
+   • 🏆 Yield: 7.79% ao ano - ALTA RENTABILIDADE (6-8%)
+
+6. Residencial Paraíso - Jardim Shangri-lá
+   • Plataforma: ZAP Imóveis
+   • Preço: R$ 340,000.00 | Aluguel: R$ 2,200.00
+   • 🏆 Yield: 7.76% ao ano - ALTA RENTABILIDADE (6-8%)
+
+7. Edifício Água Viva - Lago Parque
+   • Plataforma: ZAP Imóveis
+   • Preço: R$ 450,000.00 | Aluguel: R$ 2,900.00
+   • 🏆 Yield: 7.73% ao ano - ALTA RENTABILIDADE (6-8%)
+
+8. Residencial Villa Verde - OPORTUNIDADE - Gleba Palhano
+   • Plataforma: ZAP Imóveis
+   • Preço: R$ 420,000.00 | Aluguel: R$ 2,700.00
+   • 🏆 Yield: 7.71% ao ano - ALTA RENTABILIDADE (6-8%)
+
+9. Condomínio Vista Verde - Jardim Shangri-lá
+   • Plataforma: ZAP Imóveis
+   • Preço: R$ 420,000.00 | Aluguel: R$ 2,700.00
+   • 🏆 Yield: 7.71% ao ano - ALTA RENTABILIDADE (6-8%)
+
+10. Edifício Bela Vista - Alto da Boa Vista
+   • Plataforma: ZAP Imóveis
+   • Preço: R$ 380,000.00 | Aluguel: R$ 2,400.00
+   • 🏆 Yield: 7.58% ao ano - ALTA RENTABILIDADE (6-8%)
+
+================================================================================
+
+💾 Exportando oportunidades...
+✓ Oportunidades exportadas para oportunidades.json
+
+✅ Análise concluída com sucesso!
+================================================================================
+
