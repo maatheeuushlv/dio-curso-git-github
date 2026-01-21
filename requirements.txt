@@ -1,12 +1,24 @@
 # Análise de Oportunidades Imobiliárias - Londrina/PR (Zona Sul)
-# Não requer dependências externas - usa apenas bibliotecas padrão do Python 3
+# Sistema com Web Scraping REAL de OLX e ZAP Imóveis
 
-# Este projeto não requer instalação de pacotes externos.
-# Python 3.7+ é suficiente para executar o sistema.
+# === DEPENDÊNCIAS OBRIGATÓRIAS ===
+# Para web scraping e extração de dados reais
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
 
-# Se você deseja adicionar funcionalidades extras, considere:
-# requests==2.31.0  # Para coleta de dados real das plataformas
-# beautifulsoup4==4.12.2  # Para parsing de HTML
-# pandas==2.0.3  # Para análise de dados avançada
-# matplotlib==3.7.2  # Para visualização de gráficos
-# plotly==5.15.0  # Para gráficos interativos
+# === DEPENDÊNCIAS OPCIONAIS ===
+# Para sites com JavaScript dinâmico (se necessário)
+# selenium>=4.15.0
+# webdriver-manager>=4.0.0
+
+# Para análise de dados avançada (opcional)
+# pandas>=2.0.3
+# numpy>=1.24.0
+
+# Para visualização de gráficos (opcional)
+# matplotlib>=3.7.2
+# plotly>=5.15.0
+
+# === INSTALAÇÃO ===
+# pip install -r requirements.txt

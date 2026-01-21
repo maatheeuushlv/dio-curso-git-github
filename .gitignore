@@ -1,6 +1,10 @@
 # Real Estate Analysis - Generated Files
 dados_imoveis_londrina.json
 oportunidades.json
+dados_imoveis_bruto.json
+cessao_direitos.json
+relatorio_final.json
+relatorio_final.md
 
 # Python
 __pycache__/
